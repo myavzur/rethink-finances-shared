@@ -1,6 +1,6 @@
 import {User} from "../entities";
 
 export interface AuthResponse {
-  user: Omit<User, "email_hash" | "password">
+  user: Pick<User, "id" | "created_at" | "nickname">
   access_token: string
 }

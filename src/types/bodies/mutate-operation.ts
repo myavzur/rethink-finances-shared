@@ -1,5 +1,4 @@
-import {IOperationType} from "@/const";
-import {ICurrency} from "../entities";
+import {ICurrency, IOperationType} from "@/const";
 
 export interface CreateOperationBody {
   name: string;

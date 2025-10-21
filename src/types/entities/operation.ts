@@ -1,6 +1,6 @@
 import {User} from "./user";
 import {Category} from "./category";
-import {ICurrency, IOperationType} from "@/const";
+import {ICurrency, IOperationType} from "../../const";
 
 export const OperationLimits = {
   NAME_MIN_LENGTH: 1,

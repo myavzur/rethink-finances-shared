@@ -1,4 +1,4 @@
-import {IIconAppearance} from "@/const";
+import {IIconAppearance} from "../../const";
 
 export interface CreateCategoryBody {
   name: string;

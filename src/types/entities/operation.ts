@@ -1,14 +1,12 @@
 import {User} from "./user";
 import {ValueOf} from "../";
-import {Currency, IOperationType} from "@/const";
 import {Category} from "./category";
+import {ICurrency, IOperationType} from "@/const";
 
 export const OperationLimits = {
   NAME_MIN_LENGTH: 1,
   NAME_MAX_LENGTH: 60
 };
-
-export type ICurrency = ValueOf<typeof Currency>;
 
 export interface Operation {
   id: string;

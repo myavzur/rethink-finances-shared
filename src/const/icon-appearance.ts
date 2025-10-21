@@ -1,4 +1,4 @@
-import {ValueOf} from "../types/value-of";
+import {ValueOf} from "@/types";
 
 export const IconAppearance = {
   // Базовые

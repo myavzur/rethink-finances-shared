@@ -1,4 +1,4 @@
-import {ValueOf} from "../types";
+import {ValueOf} from "@/types";
 
 export const OperationType = {
   EXPENSE: 'expense',
@@ -13,3 +13,5 @@ export const Currency = {
   USD: 'usd',
   EUR: 'eur',
 } as const;
+
+export type ICurrency = ValueOf<typeof Currency>

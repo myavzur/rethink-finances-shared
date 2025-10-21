@@ -1,5 +1,4 @@
 import {User} from "./user";
-import {ValueOf} from "../";
 import {Category} from "./category";
 import {ICurrency, IOperationType} from "@/const";
 

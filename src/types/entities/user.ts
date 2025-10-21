@@ -12,13 +12,9 @@ export const UserLimits = {
 
 export interface User {
   id: string;
-
   created_at: Date;
-
   email_hash: string;
-
   password: string;
-
   nickname: string;
 
   operations: Operation[];

@@ -1,5 +1,6 @@
 import {OperationModel} from "./operation";
 import {CategoryModel} from "./category";
+import {AccountModel} from "./account";
 
 export const UserValidationLimits = {
   EMAIL_MIN_LENGTH: 5,
@@ -25,4 +26,5 @@ export interface UserModel {
 
   operations: OperationModel[];
   categories: CategoryModel[];
+  accounts: AccountModel[];
 }

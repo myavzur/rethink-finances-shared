@@ -1,6 +1,7 @@
 import {UserModel} from "./user";
 import {CategoryModel} from "./category";
 import {ICurrency, IOperationType} from "../../const";
+import {AccountModel} from "./account";
 
 export const OperationValidationLimits = {
   NAME_MIN_LENGTH: 1,
@@ -8,7 +9,7 @@ export const OperationValidationLimits = {
 };
 
 export const OperationSchemaLimits = {
-  NAME_MAX_LENGTH: 60,
+  NAME_MAX_LENGTH: 60
 }
 
 export interface OperationModel {
@@ -19,6 +20,7 @@ export interface OperationModel {
   amount_currency: ICurrency;
   amount_value: number;
 
+  account: AccountModel;
   category: CategoryModel;
   user: UserModel;
 }

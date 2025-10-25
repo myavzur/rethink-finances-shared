@@ -1,6 +1,6 @@
-import {User} from "../entities";
+import {UserModel} from "../models";
 
 export interface AuthResponse {
-  user: Pick<User, "id" | "created_at" | "nickname">
+  user: Pick<UserModel, "id" | "created_at" | "nickname">
   access_token: string
 }
